@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/main.css">
     <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <title>CV Natali Shramko</title>
 </head>
 <body>
@@ -11,6 +12,32 @@
        <h1>Front-end developer</h1>
        <i>Natalya Shramko </i>
    </header>
+   <div class="works">
+       <article>
+  <div data-title="Title 1" data-caption="Image Caption 1" class="image image1"></div>
+  <div data-title="Title 2" data-caption="Image Caption 2" class="image image2"></div>
+  <div data-title="Title 3" data-caption="Image Caption 3" class="image image3"></div>
+  <div data-title="Title 4" data-caption="Image Caption 4" class="image image4"></div>
+  <div data-title="Title 5" data-caption="Image Caption 5" class="image image5"></div>
+  <div data-title="Title 6" data-caption="Image Caption 6" class="image image6"></div>
+</article>
+  <div class="imagePanel">
+  <div class="closeButton button"><i class="fa fa-times fa-2x"></i></div>
+  <div class="backButton button"><i class="fa fa-chevron-left fa-4x"></i></div>
+  <div class="nextButton button"><i class="fa fa-chevron-right fa-4x"></i></div>
+  <div class="bottomContainer button">
+    <div class="toggleCaption"><i class="fa fa-plus"></i></div>
+  </div>
+  <div class="container">
+    <figcaption>
+      <div id="caption">
+        <p id="captionTitle"></p>
+        <p id="captionBody"></p>
+      </div>
+    </figcaption>
+  </div>
+</div>
+   </div>
     <div class="about">
          
          <span class="entypo-location"></span><i>Kyiv, Ukraine</i><br>
@@ -28,6 +55,7 @@
         <li class="entypo-code"></li>
         
     </ul>
-    
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/gallery.js"></script>
 </body>
 </html>
