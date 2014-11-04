@@ -1,0 +1,91 @@
+
+@import url(http://weloveiconfonts.com/api/?family=brandico|entypo|openwebicons|zocial|fontawesome);
+
+/* brandico */
+[class*="brandico-"]:before {
+  font-family: 'brandico', sans-serif;
+}
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+
+/* openwebicons */
+[class*="openwebicons-"]:before {
+  font-family: 'OpenWeb Icons', sans-serif;
+}
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+[class*="fontawesome-"]:before {
+  font-family: 'fontawesome', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+    }
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+header{
+    text-align: center;
+}
+header h1{
+  font-size: 72px;
+}
+header i{
+    font-style: normal;
+    font-size: 19px;
+    letter-spacing: 7px;
+}
+.about span{
+    font-size: 64px;
+    color: #454444;
+    padding: 10px;
+}
+.about i,.about a{
+    font-style: normal;
+    display: inline-block;
+    -webkit-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    -moz-transform: translateY(-15px);
+    transform: translateY(-15px);
+    font-size: 18px;
+    color: #454444;
+    padding: 10px;
+    letter-spacing: 7px;
+}
+.about a:hover{
+    color: #27f5fd;
+    }
+.skills {
+    padding: 50px;
+}
+.skills  li{
+    color: #454444;
+    padding: 20px 35px;
+    display: inline;
+    font-size: 100px;
+    background: #e0e0e0;
+    border-radius: 100px;
+}
+.skills h2{
+    color: #454444;
+    display: block;
+    font-size: 70px;
+    margin: 20px;
+    text-align: center;
+}
