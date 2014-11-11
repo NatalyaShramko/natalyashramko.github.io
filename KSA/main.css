@@ -46,8 +46,11 @@ nav li a{
     float: left;
     color: #000;
     margin: 15px;
-   
 }
+nav a:hover{
+    color: #52321c;
+}
+
 .contacts{
     font-size: 1rem;
     width: 22.2222%;
