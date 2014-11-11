@@ -47,8 +47,8 @@ nav li a{
     color: #000;
     margin: 15px;
 }
-nav a:hover{
-    color: #52321c;
+nav li a:hover{
+   text-decoration: underline;  
 }
 
 .contacts{
