@@ -119,3 +119,22 @@ header i{
     margin: 20px;
     text-align: center;
 }
+.box{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    background: rgba(0,5,20, 0.8);
+    display: none;
+    border-top: solid 5px #e0e0e0;
+    top: 420px;
+}
+.jq{
+    left: 360px;
+}
+.html{
+    left: 517px;
+}.css{
+    left: 690px;
+}.cod{
+   left: 870px;
+}

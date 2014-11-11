@@ -19,8 +19,8 @@
             <li class="openwebicons-html5"></li>
             <li class="openwebicons-css3"></li>
             <li class="entypo-code"></li>
-
         </ul>
+        <div class="box jq"></div><div class="box html"></div><div class="box css"></div><div class="box cod"></div>
         <div class="about">
              <h2>About</h2>
              <span class="entypo-location "></span><i>Kyiv, Ukraine</i><br>
@@ -34,5 +34,37 @@
     </div>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/gallery.js"></script>
+    <script>
+    (function($, undefined){
+   $('.zocial-drupal').mouseenter(function(event){
+          $('.box.jq').animate({'opacity':'show'})
+          })
+          
+          .mouseout(function(event){
+          $('.box.jq').animate({'opacity':'hide'})
+            });
+    $('.openwebicons-html5').mouseenter(function(event){
+          $('.box.html').animate({'opacity':'show'})
+          })
+          
+          .mouseout(function(event){
+            $('.box.html').animate({'opacity':'hide'})
+            });
+    $('.openwebicons-css3').mouseenter(function(event){
+          $('.box.css').animate({'opacity':'show'})
+          })
+          
+          .mouseout(function(event){
+          $('.box.css').animate({'opacity':'hide'})
+            });
+    $('.entypo-code').mouseenter(function(event){
+          $('.box.cod').animate({'opacity':'show'})
+          })
+          
+          .mouseout(function(event){
+          $('.box.cod').animate({'opacity':'hide'})
+            });
+})(jQuery);
+    </script>
 </body>
 </html>
