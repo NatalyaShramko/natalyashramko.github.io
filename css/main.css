@@ -49,6 +49,7 @@ header{
     text-align: center;
 }
 header h1{
+    color: #454444;
   font-size: 72px;
 }
 header i{
@@ -95,6 +96,21 @@ header i{
     background: #e0e0e0;
     border-radius: 100px;
     margin-top: 20px;
+}
+.skills  li:hover{
+    background: #f0f1f4;
+}
+.zocial-drupal:hover{
+    color: #2670d6;
+}
+.openwebicons-html5:hover{
+    color: #dd4301;
+}
+.openwebicons-css3:hover{
+    color: #051d6c;
+}
+.entypo-code:hover{
+    color: #f40529;
 }
 .skills h2, .about h2{
     color: #2a2a2a;
