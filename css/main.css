@@ -89,13 +89,14 @@ header i{
     padding: 50px;
 }
 .skills  li{
+    cursor: help;
     color: #2a2a2a;
     padding: 20px 35px;
     display: inline;
     font-size: 100px;
     background: #e0e0e0;
     border-radius: 100px;
-    margin-top: 20px;
+    margin-left: 50px;
 }
 .skills  li:hover{
     background: #f0f1f4;
@@ -112,11 +113,11 @@ header i{
 .entypo-code:hover{
     color: #f40529;
 }
+.skills h2{margin-bottom: 50px;}
 .skills h2, .about h2{
     color: #2a2a2a;
     display: block;
     font-size: 50px;
-    margin: 20px;
     text-align: center;
 }
 .box{
@@ -129,12 +130,10 @@ header i{
     top: 420px;
 }
 .jq{
-    left: 360px;
+    left: 400px;
 }
 .html{
-    left: 517px;
-}.css{
-    left: 690px;
-}.cod{
-   left: 870px;
+    left: 610px;
 }
+.css{
+    left: 820px;
