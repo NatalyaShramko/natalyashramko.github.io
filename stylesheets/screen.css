@@ -83,8 +83,9 @@ p {
 .btn {
   color: #fff;
   font-size: 16px;
+  cursor: pointer;
 }
-/* line 67, ../sass/screen.scss */
+/* line 68, ../sass/screen.scss */
 .btn.empty {
   display: block;
   width: 240px;
@@ -94,12 +95,11 @@ p {
   margin: 30px auto;
   background-color: rgba(24, 27, 46, 0.3);
 }
-/* line 76, ../sass/screen.scss */
+/* line 77, ../sass/screen.scss */
 .btn.send {
   padding: 11px 50px;
   display: inline-block;
   width: 185px;
-  cursor: pointer;
   border-radius: 5px;
   background-color: #1de1ac;
   float: right;
@@ -107,7 +107,7 @@ p {
   border: none;
 }
 @media screen and (max-width: 1004px) {
-  /* line 76, ../sass/screen.scss */
+  /* line 77, ../sass/screen.scss */
   .btn.send {
     float: none;
   }
