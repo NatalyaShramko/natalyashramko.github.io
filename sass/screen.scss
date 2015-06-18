@@ -76,11 +76,14 @@ p{
 	&.send{
 		padding: 11px 50px;
 		display: inline-block;
-		width: 90px;
+		width: 185px;
+		cursor: pointer;
 		border-radius: 5px;
 		background-color: #1de1ac;
 		float: right;
 		margin-top: 15px;
+		border: none;
+		
 		
 		@media screen and (max-width: 1004px) {
 			float: none;
@@ -88,9 +91,9 @@ p{
 	}
 	&.footer{
 		display: inline-block;
-		width: 240px;
+		width: 320px;
 		background: #1abc9c;
-		padding: 9px 40px 12px;
+		padding: 12px 40px 13px;
 		border-radius: 5px;
 		border-top-left-radius: 0;
 		border-bottom-left-radius: 0;
@@ -119,12 +122,12 @@ p{
 		strong{
 			font-size: 44px;
 			display: block;
-			padding: 170px 0 60px;
+			padding: 60px 0;
 		}
 		i{
 			font-size: 25px;
 			color: $grey;
-			padding-bottom: 185px;
+			padding-bottom: 145px;
 			display: block;
 		}
 		p{
@@ -243,12 +246,12 @@ p{
 	padding: 3% 0; 
 	background: #1abc9c;
 	
-	input{
+	input[name="lead_email"]{
 		font-size: 50px;
 		font-weight: 700;
 		background-color: #1abc9c;
 		color: $white;
-		width: 500px;
+		width: 510px;
 		border: none;
 		font-family: 'Open Sans', sans-serif;
 		&:focus{
@@ -319,6 +322,7 @@ footer{
 		border: none;
 		width: 40%;
 		min-width: 150px;
+		color: #979da4;
 
 		@include placeholder {
 			font-family: 'Open Sans', sans-serif;
@@ -326,7 +330,3 @@ footer{
 		}
 	}
 }
-.vjs-default-skin .vjs-big-play-button{
-		  left: 39%!important;
-  		top: 35%!important;
-	}
