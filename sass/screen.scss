@@ -213,7 +213,17 @@ p{
 			margin: 30px 0;
 		}
 	}
-
+	.bg-video{
+		position: relative;
+		img{
+			width: 585px;
+			height: 392px;
+			position: absolute;
+			top: 16px; 
+			cursor: pointer;
+			margin-left: 15px;
+		}
+	}
 }
 .wrap.dark-grey{
 	background: $title;

@@ -46,7 +46,10 @@
 				Что такое реинтеграция? 
 				<i>Вот что говорит о реинтеграциях их создатель<br> - Константин Довлатов:</i>
 			</span>
-			<iframe height="420" width="620" src="http://zews.software-dowlatow.ru/mediaembed/ZCO6S1xlhk1434436106" frameborder="0" allowfullscreen></iframe>
+			<div class="bg-video">
+			<img src="./img/bg-video.jpg" alt="">
+			<iframe height="420" width="620" id="video" src="http://zews.software-dowlatow.ru/mediaembed/ZCO6S1xlhk1434436106" frameborder="0" allowfullscreen></iframe>
+			</div>
 		</div>
 	</div>
 	<div class="wrap dark-grey">
@@ -93,11 +96,21 @@
 	</footer>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script>
+	$(document).ready(function() {
+		
 		var $mail = $('.mail-section input[name="lead_email"]');
-	$mail.on('focus', function() {
-		$(this).css({ 'font-size':'18px', 'padding':'22px'});
-	}).on('blur', function() {
-		$(this).css({ 'font-size':'18px', 'padding':'22px'});
+		$mail.on('focus', function() {
+			$(this).css({ 'font-size':'18px', 'padding':'22px'});
+		}).on('blur', function() {
+			$(this).css({ 'font-size':'18px', 'padding':'22px'});
+		});
+  		
+		
+		var img = $('.bg-video').find('img');
+		img.click(function() {
+			img.fadeOut(200);
+		});
+		
 	});
 	</script>
 </body>
