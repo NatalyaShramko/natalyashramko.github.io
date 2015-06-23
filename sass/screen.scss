@@ -49,6 +49,10 @@ b{
 }
 p{
 	line-height: 27px;
+	
+	@media screen and (min-width: 1680px) {
+		line-height: 35px;
+	}
 }
 .ico{
 	display: block;
@@ -65,6 +69,10 @@ p{
 	font-size: 16px;
 	cursor: pointer;
 	
+	@media screen and (min-width: 1680px) {
+		font-size: 22px;
+	}
+	
 	&.empty{
 		display: block;
 		width: 240px;
@@ -73,6 +81,10 @@ p{
 		border-radius: 30px;
 		margin: 30px auto;
 		background-color: rgba(24, 27, 46, 0.3);
+		
+		@media screen and (min-width: 1680px) {
+			width: 320px;
+		}
 	}
 	&.send{
 		padding: 11px 50px;
@@ -84,6 +96,12 @@ p{
 		margin-top: 15px;
 		border: none;
 		
+		
+		@media screen and (min-width: 1680px) {
+			width: 260px;
+			padding: 15px 60px;
+			margin-top: 18px;
+		}
 		
 		@media screen and (max-width: 1004px) {
 			float: none;
@@ -102,6 +120,11 @@ p{
 		@media screen and (max-width: 974px) {
 			border-radius: 5px;
 			margin-top: 20px;
+		}
+		
+		@media screen and (min-width: 1680px) {
+			padding: 14px 20px 16px;
+			width: 380px;
 		}
 	}
 }
@@ -123,16 +146,54 @@ p{
 			font-size: 44px;
 			display: block;
 			padding: 60px 0;
+			
+			@media screen and (min-width: 1440px) {
+				font-size: 46px;
+			}
+			
+			@media screen and (min-width: 1560px) {
+				font-size: 51px;
+			}
+			@media screen and (min-width: 1680px) {
+				font-size: 55px;
+				padding: 217px 0 60px;
+			}
+			@media screen and (min-width: 1920px) {
+				font-size: 62px;
+				padding: 227px 0 60px;
+			}
 		}
 		i{
 			font-size: 25px;
 			color: $grey;
 			padding-bottom: 145px;
 			display: block;
+			
+			@media screen and (min-width: 1440px) {
+				font-size: 28px;
+			}
+			
+			@media screen and (min-width: 1560px) {
+				font-size: 30px;
+				padding-bottom: 175px;
+			}
+			
+			@media screen and (min-width: 1680px) {
+				font-size: 32px;
+  				padding-bottom: 300px;
+			}
 		}
 		p{
 			color: $white-grey;
 			font-size: 18px;
+			
+			@media screen and (min-width: 1560px) {
+				font-size: 20px;
+			}
+			
+			@media screen and (min-width: 1680px) {
+				font-size: 22px;
+			}
 		}
 }
 .middle-section{
@@ -141,6 +202,11 @@ p{
 	span{
 		display: block;
 		font-size: 35px;
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 40px;
+		}
+		
 		b{
 			display: block;
 		}
@@ -162,6 +228,15 @@ p{
 			display: inline-block;
 			margin: 50px 0 70px;
 			color: #7f8c8d;
+			
+			@media screen and (min-width: 1680px) {
+				font-size: 22px;
+			}
+			
+			@media screen and (min-width: 1920px) {
+				font-size: 25px;
+			}
+			
 			&.left{
 				float: left;
 			}
@@ -192,13 +267,42 @@ p{
 	color: $white;
 	padding: 83px 0 140px;
 	
+	@media screen and (min-width: 1920px) {
+		padding: 120px 0 180px;
+	}
+	
 	strong{
 		font-size: 48px;
 		display: block;
 		margin-bottom: 50px;
+		
+		@media screen and (min-width: 1440px) {
+			font-size: 50px;
+		}
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 63px;
+			margin-bottom: 70px;
+		}
+		
+		@media screen and (min-width: 1920px) {
+			font-size: 70px;
+		}
 	}
 	p{
 		width: 55%;
+		
+		@media screen and (min-width: 1440px) {
+			font-size: 22px;
+		}
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 25px;
+		}
+		
+		@media screen and (min-width: 1920px) {
+			font-size: 30px;
+		}
 	}
 }
 .video-section{
@@ -211,17 +315,10 @@ p{
 			color: #7f8c8d;
 			font-size: 22px;
 			margin: 30px 0;
-		}
-	}
-	.bg-video{
-		position: relative;
-		img{
-			width: 585px;
-			height: 392px;
-			position: absolute;
-			top: 16px; 
-			cursor: pointer;
-			margin-left: 15px;
+			
+			@media screen and (min-width: 1680px) {
+				font-size: 30px;
+			}
 		}
 	}
 }
@@ -234,6 +331,10 @@ p{
 		padding: 14% 12%;
 		font-weight: 700;
 		font-size: 36px;
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 45px;
+		}
 	}
 	b{
 		line-height: 28px;
@@ -241,14 +342,28 @@ p{
 		color: #95a5a6;
 		display: block;
 		padding: 0 15% 11%;
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 25px;
+			line-height: 37px;
+		}
 	}
 }
 .mail-title{
 	text-align: center;
 	padding: 5% 0;
+	
+	@media screen and (min-width: 1680px) {
+		padding: 6% 0;
+	}
+	
 	span{
 		font-size: 22px;
 		color: #7f8c8d;
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 30px;
+		}
 	}
 }
 
@@ -271,6 +386,11 @@ p{
 			font-family: 'Open Sans', sans-serif;
 			color: $white;
 		}
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 60px;
+			width: 620px;
+		}
 	}
 }
 .bottom-section{
@@ -291,10 +411,16 @@ p{
 		font-size: 30px;
 		display: inline-block;
 		padding: 11.48% 10% 0;
+
 		@media screen and (max-width: 835px){
 			width: 70%;
 			padding: 10% 15%;
 		}
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 38px;
+			padding: 5% 7% 0;
+		}		
 	}
 	p{
 		color: #7f8c8d;
@@ -308,6 +434,12 @@ p{
 		
 		&:first-child{
 			margin-top: 20px;
+		}
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 27px;
+			line-height: 36px;
+			margin-bottom: 30px;
 		}
 	}
 }
@@ -324,6 +456,10 @@ footer{
 		font-size: 35px;
 		margin-bottom: 9%;
 		display: block;
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 43px;
+		}
 	}
 	input{
 		font-size: 17px;
@@ -337,6 +473,12 @@ footer{
 		@include placeholder {
 			font-family: 'Open Sans', sans-serif;
 			color: #979da4;
+		}
+		
+		@media screen and (min-width: 1680px) {
+			font-size: 21px;
+			padding: 16px 16px 17px;
+			width: 35%;
 		}
 	}
 }
