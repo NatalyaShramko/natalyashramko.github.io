@@ -98,11 +98,12 @@
 		var $mail = $('.mail-section input[name="lead_email"]');
 		
 			$mail.on('focus', function() {
-				$(this).css({ 'font-size':'20px', 'padding':'15px 0', 'border-bottom':'solid 3px #1de1ac'});
+				$(this).css({ 'font-size':'20px', 'padding':'15px', 'background':'#fff','color':'#979da4','font-weight':'500','border-radius':'5px'});
 				$('.mail-section').addClass('p');
 				$('.btn.send').css({'transform':'translateY(0px)'});
+				
 			}).on('blur', function() {
-				$(this).css({ 'font-size': '20px', 'padding':'15px 0', 'border-bottom':'solid 3px #1de1ac'});
+				$(this).css({ 'font-size': '20px', 'padding':'15px', 'background':'#fff','color':'#979da4','font-weight':'500','border-radius':'5px'});
 					
 			});
 		
