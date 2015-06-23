@@ -91,23 +91,5 @@
 			</div>
 		</div>
 	</footer>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script>
-	$(document).ready(function() {
-		
-		var $mail = $('.mail-section input[name="lead_email"]');
-		
-			$mail.on('focus', function() {
-				$(this).css({ 'font-size':'20px', 'padding':'15px', 'background':'#fff','color':'#979da4','font-weight':'500','border-radius':'5px'});
-				$('.mail-section').addClass('p');
-				$('.btn.send').css({'transform':'translateY(0px)'});
-				
-			}).on('blur', function() {
-				$(this).css({ 'font-size': '20px', 'padding':'15px', 'background':'#fff','color':'#979da4','font-weight':'500','border-radius':'5px'});
-					
-			});
-		
-	});
-	</script>
 </body>
 </html>
