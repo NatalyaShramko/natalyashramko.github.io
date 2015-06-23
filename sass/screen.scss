@@ -92,19 +92,17 @@ p{
 		width: 185px;
 		border-radius: 5px;
 		background-color: #1de1ac;
-		float: right;
-		margin-top: 15px;
+		margin-left: 35px;
 		border: none;
-		
+		transform: translateY(-15px);
 		
 		@media screen and (min-width: 1680px) {
 			width: 260px;
 			padding: 15px 60px;
-			margin-top: 18px;
 		}
 		
-		@media screen and (max-width: 1004px) {
-			float: none;
+		@media screen and (max-width: 1066px) {
+			margin: 20px 0 0 0;
 		}
 	}
 	&.footer{
@@ -370,6 +368,13 @@ p{
 .mail-section{
 	padding: 3% 0; 
 	background: #1abc9c;
+	
+	&.p{
+		padding: 3.3% 0; 
+		@media screen and (min-width: 1680px) {
+			padding: 3.75% 0;
+		}
+	}
 	
 	input[name="lead_email"]{
 		font-size: 50px;
