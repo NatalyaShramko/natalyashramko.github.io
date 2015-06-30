@@ -48,7 +48,7 @@ b{
 	font-weight: 600;
 }
 p{
-	line-height: 27px;
+	line-height: 25px;
 	
 	@media screen and (min-width: 1680px) {
 		line-height: 35px;
@@ -56,11 +56,14 @@ p{
 }
 .ico{
 	display: block;
-	&.one{
+	&.one {
 		@include sprite-sprite(one,1);
 	}
-	&.watch{
+	&.watch {
 		@include sprite-sprite(watch,1);
+	}
+	&.arrow {
+		@include sprite-sprite(icon-block8,1);
 	}
 }
 .btn{
@@ -143,7 +146,7 @@ p{
 			color: $white;
 			font-size: 43px;
 			display: block;
-			padding: 150px 0 60px;
+			padding: 180px 0 40px;
 			
 			@media screen and (min-width: 1440px) {
 				font-size: 46px;
@@ -161,10 +164,11 @@ p{
 				padding: 210px 0 60px;
 			}
 		}
-		i{
-			font-size: 23px;
+		span{
+			font-weight: 400;
+			font-size: 21px;
 			color: #e0e1e1;
-			padding-bottom: 90px;
+			padding-bottom: 10px;
 			display: block;
 			
 			@media screen and (min-width: 1440px) {
@@ -184,6 +188,7 @@ p{
 		p{
 			color: $white-grey;
 			font-size: 16px;
+			padding: 25px 0 10px;
 			
 			@media screen and (min-width: 1560px) {
 				font-size: 20px;
@@ -193,6 +198,21 @@ p{
 				font-size: 22px;
 			}
 		}
+	a.btn-arrow {
+		display: block;
+		margin: 0 auto;	
+		width: 58px;
+		height: 58px;
+		background-color: $white;
+		border-radius: 50%;
+		position: relative;
+		
+		i{
+			position: absolute;
+			top: 24px;
+			left: 19px;
+		}
+	}	
 }
 .middle-section{
 	padding: 90px 0 150px;

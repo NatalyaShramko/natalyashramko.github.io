@@ -1,19 +1,26 @@
-/* line 56, sprite/*.png */
-.sprite-sprite, .sprite-one, .sprite-watch, .ico.one, .ico.watch {
-  background-image: url('../img/sprite-s83e7071e5f.png');
+/* line 64, sprite/*.png */
+.sprite-sprite, .sprite-icon-block8, .sprite-one, .sprite-watch, .ico.one, .ico.watch, .ico.arrow {
+  background-image: url('../img/sprite-se3bd4cc226.png');
   background-repeat: no-repeat;
 }
 
 /* line 84, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
-.sprite-one {
+.sprite-icon-block8 {
   background-position: 0 0;
+  height: 11px;
+  width: 19px;
+}
+
+/* line 84, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
+.sprite-one {
+  background-position: 0 -11px;
   height: 219px;
   width: 202px;
 }
 
 /* line 84, C:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-core-1.0.1/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-watch {
-  background-position: 0 -219px;
+  background-position: 0 -230px;
   height: 100px;
   width: 100px;
 }
@@ -59,7 +66,7 @@ b, .btn {
 
 /* line 50, ../sass/screen.scss */
 p {
-  line-height: 27px;
+  line-height: 25px;
 }
 @media screen and (min-width: 1680px) {
   /* line 50, ../sass/screen.scss */
@@ -74,30 +81,36 @@ p {
 }
 /* line 59, ../sass/screen.scss */
 .ico.one {
-  background-position: 0 0;
+  background-position: 0 -11px;
   height: 219px;
   width: 202px;
 }
 /* line 62, ../sass/screen.scss */
 .ico.watch {
-  background-position: 0 -219px;
+  background-position: 0 -230px;
   height: 100px;
   width: 100px;
 }
+/* line 65, ../sass/screen.scss */
+.ico.arrow {
+  background-position: 0 0;
+  height: 11px;
+  width: 19px;
+}
 
-/* line 66, ../sass/screen.scss */
+/* line 69, ../sass/screen.scss */
 .btn {
   color: #fff;
   font-size: 16px;
   cursor: pointer;
 }
 @media screen and (min-width: 1680px) {
-  /* line 66, ../sass/screen.scss */
+  /* line 69, ../sass/screen.scss */
   .btn {
     font-size: 22px;
   }
 }
-/* line 76, ../sass/screen.scss */
+/* line 79, ../sass/screen.scss */
 .btn.empty {
   display: block;
   width: 240px;
@@ -108,13 +121,13 @@ p {
   background-color: rgba(24, 27, 46, 0.3);
 }
 @media screen and (min-width: 1680px) {
-  /* line 76, ../sass/screen.scss */
+  /* line 79, ../sass/screen.scss */
   .btn.empty {
     width: 320px;
     margin: 30px auto;
   }
 }
-/* line 90, ../sass/screen.scss */
+/* line 93, ../sass/screen.scss */
 .btn.send {
   padding: 11px 50px;
   display: inline-block;
@@ -128,13 +141,13 @@ p {
   padding: 12px 20px 13px;
 }
 @media screen and (min-width: 1680px) {
-  /* line 90, ../sass/screen.scss */
+  /* line 93, ../sass/screen.scss */
   .btn.send {
     padding: 15px 40px 16px;
     width: 210px;
   }
 }
-/* line 107, ../sass/screen.scss */
+/* line 110, ../sass/screen.scss */
 .btn.footer {
   display: inline-block;
   width: 320px;
@@ -146,32 +159,32 @@ p {
   transform: translateX(-10px);
 }
 @media screen and (max-width: 974px) {
-  /* line 107, ../sass/screen.scss */
+  /* line 110, ../sass/screen.scss */
   .btn.footer {
     border-radius: 5px;
     margin-top: 20px;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 107, ../sass/screen.scss */
+  /* line 110, ../sass/screen.scss */
   .btn.footer {
     padding: 14px 20px 16px;
     width: 380px;
   }
 }
 
-/* line 128, ../sass/screen.scss */
+/* line 131, ../sass/screen.scss */
 .bg, .img-middle {
   width: 100%;
 }
 
-/* line 131, ../sass/screen.scss */
+/* line 134, ../sass/screen.scss */
 .wrap {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 135, ../sass/screen.scss */
+/* line 138, ../sass/screen.scss */
 .img-top {
   background: url(../img/bg-top.jpg) no-repeat;
   background-size: 100% 100%;
@@ -179,117 +192,135 @@ p {
   text-align: center;
   padding-bottom: 15px;
 }
-/* line 142, ../sass/screen.scss */
+/* line 145, ../sass/screen.scss */
 .img-top strong {
   color: #fff;
   font-size: 43px;
   display: block;
-  padding: 150px 0 60px;
+  padding: 180px 0 40px;
 }
 @media screen and (min-width: 1440px) {
-  /* line 142, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   .img-top strong {
     font-size: 46px;
   }
 }
 @media screen and (min-width: 1560px) {
-  /* line 142, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   .img-top strong {
     font-size: 51px;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 142, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   .img-top strong {
     font-size: 55px;
     padding: 200px 0 60px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 142, ../sass/screen.scss */
+  /* line 145, ../sass/screen.scss */
   .img-top strong {
     font-size: 62px;
     padding: 210px 0 60px;
   }
 }
-/* line 164, ../sass/screen.scss */
-.img-top i {
-  font-size: 23px;
+/* line 167, ../sass/screen.scss */
+.img-top span, .img-top .bottom-section {
+  font-weight: 400;
+  font-size: 21px;
   color: #e0e1e1;
-  padding-bottom: 90px;
+  padding-bottom: 10px;
   display: block;
 }
 @media screen and (min-width: 1440px) {
-  /* line 164, ../sass/screen.scss */
-  .img-top i {
+  /* line 167, ../sass/screen.scss */
+  .img-top span, .img-top .bottom-section {
     font-size: 28px;
   }
 }
 @media screen and (min-width: 1560px) {
-  /* line 164, ../sass/screen.scss */
-  .img-top i {
+  /* line 167, ../sass/screen.scss */
+  .img-top span, .img-top .bottom-section {
     font-size: 30px;
     padding-bottom: 175px;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 164, ../sass/screen.scss */
-  .img-top i {
+  /* line 167, ../sass/screen.scss */
+  .img-top span, .img-top .bottom-section {
     font-size: 32px;
     padding-bottom: 250px;
   }
 }
-/* line 184, ../sass/screen.scss */
+/* line 188, ../sass/screen.scss */
 .img-top p {
   color: #dfe0e0;
   font-size: 16px;
+  padding: 25px 0 10px;
 }
 @media screen and (min-width: 1560px) {
-  /* line 184, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   .img-top p {
     font-size: 20px;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 184, ../sass/screen.scss */
+  /* line 188, ../sass/screen.scss */
   .img-top p {
     font-size: 22px;
   }
 }
+/* line 201, ../sass/screen.scss */
+.img-top a.btn-arrow {
+  display: block;
+  margin: 0 auto;
+  width: 58px;
+  height: 58px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+/* line 210, ../sass/screen.scss */
+.img-top a.btn-arrow i {
+  position: absolute;
+  top: 24px;
+  left: 19px;
+}
 
-/* line 197, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 .middle-section {
   padding: 90px 0 150px;
   text-align: center;
 }
-/* line 200, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 .middle-section span, .middle-section .bottom-section {
   display: block;
   font-size: 35px;
 }
 @media screen and (min-width: 1680px) {
-  /* line 200, ../sass/screen.scss */
+  /* line 220, ../sass/screen.scss */
   .middle-section span, .middle-section .bottom-section {
     font-size: 40px;
   }
 }
-/* line 208, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 .middle-section span b, .middle-section .bottom-section b, .middle-section span .btn, .middle-section .bottom-section .btn {
   display: block;
 }
-/* line 212, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 .middle-section .ico.one {
   margin: 60px auto;
 }
-/* line 216, ../sass/screen.scss */
+/* line 236, ../sass/screen.scss */
 .middle-section.gr {
   background-color: #f2f2f1;
 }
-/* line 219, ../sass/screen.scss */
+/* line 239, ../sass/screen.scss */
 .middle-section.gr span, .middle-section.gr .bottom-section {
   margin-top: 60px;
 }
-/* line 223, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 .middle-section.gr p {
   width: 49%;
   text-align: left;
@@ -298,40 +329,40 @@ p {
   color: #7f8c8d;
 }
 @media screen and (min-width: 1680px) {
-  /* line 223, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   .middle-section.gr p {
     font-size: 22px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 223, ../sass/screen.scss */
+  /* line 243, ../sass/screen.scss */
   .middle-section.gr p {
     font-size: 25px;
   }
 }
-/* line 238, ../sass/screen.scss */
+/* line 258, ../sass/screen.scss */
 .middle-section.gr p.left {
   float: left;
 }
-/* line 241, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 .middle-section.gr p.right {
   float: right;
 }
-/* line 244, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 .middle-section.gr p.center {
   clear: both;
   width: 66%;
   display: block;
   margin: 40px auto 0;
 }
-/* line 250, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 .middle-section.gr p.center .ico.watch {
   display: inline-block;
   float: left;
   margin-right: 40px;
 }
 
-/* line 260, ../sass/screen.scss */
+/* line 280, ../sass/screen.scss */
 .img-middle {
   background: url(../img/bg-middle.jpg) no-repeat;
   background-size: 100% 100%;
@@ -340,66 +371,66 @@ p {
   padding: 83px 0 140px;
 }
 @media screen and (min-width: 1920px) {
-  /* line 260, ../sass/screen.scss */
+  /* line 280, ../sass/screen.scss */
   .img-middle {
     padding: 120px 0 180px;
   }
 }
-/* line 272, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 .img-middle strong {
   font-size: 48px;
   display: block;
   margin-bottom: 50px;
 }
 @media screen and (min-width: 1440px) {
-  /* line 272, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   .img-middle strong {
     font-size: 50px;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 272, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   .img-middle strong {
     font-size: 63px;
     margin-bottom: 70px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 272, ../sass/screen.scss */
+  /* line 292, ../sass/screen.scss */
   .img-middle strong {
     font-size: 70px;
   }
 }
-/* line 290, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 .img-middle p {
   width: 55%;
 }
 @media screen and (min-width: 1440px) {
-  /* line 290, ../sass/screen.scss */
+  /* line 310, ../sass/screen.scss */
   .img-middle p {
     font-size: 22px;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 290, ../sass/screen.scss */
+  /* line 310, ../sass/screen.scss */
   .img-middle p {
     font-size: 25px;
   }
 }
 @media screen and (min-width: 1920px) {
-  /* line 290, ../sass/screen.scss */
+  /* line 310, ../sass/screen.scss */
   .img-middle p {
     font-size: 30px;
   }
 }
 
-/* line 306, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 .video-section {
   text-align: center;
   font-size: 40px;
   padding: 10% 0;
 }
-/* line 311, ../sass/screen.scss */
+/* line 331, ../sass/screen.scss */
 .video-section span i, .video-section .bottom-section i {
   display: block;
   color: #7f8c8d;
@@ -407,19 +438,19 @@ p {
   margin: 30px 0;
 }
 @media screen and (min-width: 1680px) {
-  /* line 311, ../sass/screen.scss */
+  /* line 331, ../sass/screen.scss */
   .video-section span i, .video-section .bottom-section i {
     font-size: 30px;
   }
 }
 
-/* line 323, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 .wrap.dark-grey {
   background: #2c3e50;
   color: #fff;
   text-align: center;
 }
-/* line 327, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 .wrap.dark-grey strong {
   display: block;
   padding: 14% 12%;
@@ -427,12 +458,12 @@ p {
   font-size: 36px;
 }
 @media screen and (min-width: 1680px) {
-  /* line 327, ../sass/screen.scss */
+  /* line 347, ../sass/screen.scss */
   .wrap.dark-grey strong {
     font-size: 45px;
   }
 }
-/* line 337, ../sass/screen.scss */
+/* line 357, ../sass/screen.scss */
 .wrap.dark-grey b, .wrap.dark-grey .btn {
   line-height: 28px;
   font-size: 20px;
@@ -441,47 +472,47 @@ p {
   padding: 0 15% 11%;
 }
 @media screen and (min-width: 1680px) {
-  /* line 337, ../sass/screen.scss */
+  /* line 357, ../sass/screen.scss */
   .wrap.dark-grey b, .wrap.dark-grey .btn {
     font-size: 25px;
     line-height: 37px;
   }
 }
 
-/* line 350, ../sass/screen.scss */
+/* line 370, ../sass/screen.scss */
 .mail-title {
   text-align: center;
   padding: 5% 0;
 }
 @media screen and (min-width: 1680px) {
-  /* line 350, ../sass/screen.scss */
+  /* line 370, ../sass/screen.scss */
   .mail-title {
     padding: 6% 0;
   }
 }
-/* line 358, ../sass/screen.scss */
+/* line 378, ../sass/screen.scss */
 .mail-title span, .mail-title .bottom-section {
   font-size: 22px;
   color: #7f8c8d;
 }
 @media screen and (min-width: 1680px) {
-  /* line 358, ../sass/screen.scss */
+  /* line 378, ../sass/screen.scss */
   .mail-title span, .mail-title .bottom-section {
     font-size: 30px;
   }
 }
 
-/* line 368, ../sass/screen.scss */
+/* line 388, ../sass/screen.scss */
 .mail-section {
   padding: 4% 0;
   background: #1abc9c;
   text-align: center;
 }
-/* line 373, ../sass/screen.scss */
+/* line 393, ../sass/screen.scss */
 .mail-section .wrap {
   width: 60%;
 }
-/* line 377, ../sass/screen.scss */
+/* line 397, ../sass/screen.scss */
 .mail-section input[name="lead_email"] {
   font-size: 17px;
   padding: 9px 10px 10px;
@@ -511,12 +542,12 @@ p {
   font-family: 'Open Sans', sans-serif;
   color: #979da4;
 }
-/* line 390, ../sass/screen.scss */
+/* line 410, ../sass/screen.scss */
 .mail-section input[name="lead_email"]:focus {
   outline: none;
 }
 @media screen and (min-width: 1680px) {
-  /* line 377, ../sass/screen.scss */
+  /* line 397, ../sass/screen.scss */
   .mail-section input[name="lead_email"] {
     font-size: 21px;
     padding: 16px 16px 17px;
@@ -524,7 +555,7 @@ p {
   }
 }
 
-/* line 403, ../sass/screen.scss */
+/* line 423, ../sass/screen.scss */
 .bottom-section i {
   background: url(../img/bg-bottom.jpg) no-repeat;
   display: inline-block;
@@ -533,12 +564,12 @@ p {
   height: 960px;
 }
 @media screen and (max-width: 835px) {
-  /* line 403, ../sass/screen.scss */
+  /* line 423, ../sass/screen.scss */
   .bottom-section i {
     display: none;
   }
 }
-/* line 414, ../sass/screen.scss */
+/* line 434, ../sass/screen.scss */
 .bottom-section span, .bottom-section .bottom-section {
   width: 40%;
   font-size: 30px;
@@ -546,20 +577,20 @@ p {
   padding: 11.48% 10% 0;
 }
 @media screen and (max-width: 835px) {
-  /* line 414, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   .bottom-section span, .bottom-section .bottom-section {
     width: 70%;
     padding: 10% 15%;
   }
 }
 @media screen and (min-width: 1680px) {
-  /* line 414, ../sass/screen.scss */
+  /* line 434, ../sass/screen.scss */
   .bottom-section span, .bottom-section .bottom-section {
     font-size: 38px;
     padding: 5% 7% 0;
   }
 }
-/* line 430, ../sass/screen.scss */
+/* line 450, ../sass/screen.scss */
 .bottom-section p {
   color: #7f8c8d;
   font-size: 22px;
@@ -567,17 +598,17 @@ p {
   margin-bottom: 20px;
 }
 @media screen and (max-width: 1035px) {
-  /* line 430, ../sass/screen.scss */
+  /* line 450, ../sass/screen.scss */
   .bottom-section p {
     font-size: 18px;
   }
 }
-/* line 440, ../sass/screen.scss */
+/* line 460, ../sass/screen.scss */
 .bottom-section p:first-child {
   margin-top: 20px;
 }
 @media screen and (min-width: 1680px) {
-  /* line 430, ../sass/screen.scss */
+  /* line 450, ../sass/screen.scss */
   .bottom-section p {
     font-size: 27px;
     line-height: 36px;
@@ -585,30 +616,30 @@ p {
   }
 }
 
-/* line 452, ../sass/screen.scss */
+/* line 472, ../sass/screen.scss */
 footer {
   clear: both;
   background: #f2f2f1;
   text-align: center;
   padding: 10% 0;
 }
-/* line 457, ../sass/screen.scss */
+/* line 477, ../sass/screen.scss */
 footer .wrap {
   width: 60%;
 }
-/* line 460, ../sass/screen.scss */
+/* line 480, ../sass/screen.scss */
 footer span, footer .bottom-section {
   font-size: 35px;
   margin-bottom: 9%;
   display: block;
 }
 @media screen and (min-width: 1680px) {
-  /* line 460, ../sass/screen.scss */
+  /* line 480, ../sass/screen.scss */
   footer span, footer .bottom-section {
     font-size: 43px;
   }
 }
-/* line 469, ../sass/screen.scss */
+/* line 489, ../sass/screen.scss */
 footer input[name="lead_email"] {
   font-size: 17px;
   padding: 9px 10px 10px;
@@ -639,14 +670,14 @@ footer input[name="lead_email"]:-ms-input-placeholder {
   color: #979da4;
 }
 @media screen and (min-width: 1680px) {
-  /* line 469, ../sass/screen.scss */
+  /* line 489, ../sass/screen.scss */
   footer input[name="lead_email"] {
     font-size: 21px;
     padding: 16px 16px 17px;
     width: 35%;
   }
 }
-/* line 489, ../sass/screen.scss */
+/* line 509, ../sass/screen.scss */
 footer input[type="submit"] {
   border: none;
 }
