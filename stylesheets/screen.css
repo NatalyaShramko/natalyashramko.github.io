@@ -9326,7 +9326,7 @@ body {
 /* line 427, ../sass/screen.scss */
 .home {
   padding: 0;
-  margin-bottom: 5px;
+  margin: 1px 0;
 }
 /* line 433, ../sass/screen.scss */
 .home section {

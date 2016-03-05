@@ -47,7 +47,7 @@
                         <li>JavaScript</li>
                         <li>Bootstrap</li>
                     </ul>
-                    <a href="#">
+                    <a href="#" id="view-portfolio">
                         View portfolio
                         <span class="caret"></span>
                     </a>
@@ -228,33 +228,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-        $('.my-reviews').click(function() {
-            $('.tab-pane').removeClass('active');
-            $('#review').addClass('active');
-            $('.navbar-nav li').removeClass('active');
-            $('.navbar-nav li:nth-child(3)').addClass('active');
-        });
-        
-        $('.portfolio').click(function() {
-            $('.tab-pane').removeClass('active');
-            $('#home').addClass('active');
-            $('.navbar-nav li').removeClass('active');
-            $('.navbar-nav li:nth-child(1)').addClass('active');
-        });
-        
-        $('.about-me').click(function() {
-            $('.tab-pane').removeClass('active');
-            $('#about').addClass('active');
-            $('.navbar-nav li').removeClass('active');
-            $('.navbar-nav li:nth-child(2)').addClass('active');
-        });
-        $('.contact-me').click(function() {
-            $('.tab-pane').removeClass('active');
-            $('#contacts').addClass('active');
-            $('.navbar-nav li').removeClass('active');
-            $('.navbar-nav li:nth-child(4)').addClass('active');
-        });
-    </script>
+    <script src="js/main.js"></script>
 </body>
 </html>
