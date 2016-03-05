@@ -496,8 +496,12 @@ body {
                 }
             }
             
-            &.some-site {
+            &.kurt {
                 background: #323131;
+                
+                img {
+                    width: 200px;
+                }
  
                 &:after {
                     content: "Some new other site";
