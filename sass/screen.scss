@@ -488,11 +488,15 @@ body {
                 }
             }
             
-            &.some-other {
-                background: #999;
+            &.fitness-logo {
+                background: #041f33;
+                
+                img {
+                    margin-top: 100px;
+                }
                 
                 &:after {
-                    content: "Some other site";
+                    content: "Page of health and fitness";
                 }
             }
             
@@ -504,7 +508,7 @@ body {
                 }
  
                 &:after {
-                    content: "Some new other site";
+                    content: "Concert tickets Kurt Vile page";
                 }
             }
             
@@ -557,12 +561,14 @@ footer {
     padding: 80px 0 40px;
     clear: both;
     
-    .r-pannel,
-    .c-pannel,
-    .l-pannel{
+    .container> div{
         @extend .col-md-4;
         @extend .col-sm-12;
         padding: 0 25px;
+        
+        @media screen and (max-width: 991px) {
+            margin-bottom: 40px;
+        }
     }
     
     p {

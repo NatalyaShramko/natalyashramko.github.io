@@ -2414,11 +2414,7 @@ pre code {
 }
 
 /* line 11, ../sass/bootstrap/mixins/_grid-framework.scss */
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .home section, footer .r-pannel,
-footer .c-pannel,
-footer .l-pannel, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .home section, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .wrapper, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .wrapper, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .home, footer .r-pannel,
-footer .c-pannel,
-footer .l-pannel, .col-md-12, .intro, .home, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .home section, footer .container > div, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .home section, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .wrapper, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .wrapper, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .home, footer .container > div, .col-md-12, .intro, .home, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
@@ -2687,9 +2683,7 @@ footer .l-pannel, .col-md-12, .intro, .home, .col-lg-12 {
 
 @media (min-width: 768px) {
   /* line 27, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .home section, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .wrapper, .col-sm-11, .col-sm-12, .home, footer .r-pannel,
-  footer .c-pannel,
-  footer .l-pannel {
+  .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .home section, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .wrapper, .col-sm-11, .col-sm-12, .home, footer .container > div {
     float: left;
   }
 
@@ -2749,9 +2743,7 @@ footer .l-pannel, .col-md-12, .intro, .home, .col-lg-12 {
   }
 
   /* line 35, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-sm-12, .home, footer .r-pannel,
-  footer .c-pannel,
-  footer .l-pannel {
+  .col-sm-12, .home, footer .container > div {
     width: 100%;
   }
 
@@ -2952,9 +2944,7 @@ footer .l-pannel, .col-md-12, .intro, .home, .col-lg-12 {
 }
 @media (min-width: 992px) {
   /* line 27, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .home section, footer .r-pannel,
-  footer .c-pannel,
-  footer .l-pannel, .col-md-5, .col-md-6, .col-md-7, .wrapper, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .intro, .home {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .home section, footer .container > div, .col-md-5, .col-md-6, .col-md-7, .wrapper, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .intro, .home {
     float: left;
   }
 
@@ -2974,9 +2964,7 @@ footer .l-pannel, .col-md-12, .intro, .home, .col-lg-12 {
   }
 
   /* line 35, ../sass/bootstrap/mixins/_grid-framework.scss */
-  .col-md-4, .home section, footer .r-pannel,
-  footer .c-pannel,
-  footer .l-pannel {
+  .col-md-4, .home section, footer .container > div {
     width: 33.33333%;
   }
 
@@ -9400,35 +9388,39 @@ body {
   content: "Fashon blog Sale-Hunters";
 }
 /* line 491, ../sass/screen.scss */
-.home section a.some-other {
-  background: #999;
+.home section a.fitness-logo {
+  background: #041f33;
 }
 /* line 494, ../sass/screen.scss */
-.home section a.some-other:after {
-  content: "Some other site";
+.home section a.fitness-logo img {
+  margin-top: 100px;
 }
-/* line 499, ../sass/screen.scss */
+/* line 498, ../sass/screen.scss */
+.home section a.fitness-logo:after {
+  content: "Page of health and fitness";
+}
+/* line 503, ../sass/screen.scss */
 .home section a.kurt {
   background: #323131;
 }
-/* line 502, ../sass/screen.scss */
+/* line 506, ../sass/screen.scss */
 .home section a.kurt img {
   width: 200px;
 }
-/* line 506, ../sass/screen.scss */
+/* line 510, ../sass/screen.scss */
 .home section a.kurt:after {
-  content: "Some new other site";
+  content: "Concert tickets Kurt Vile page";
 }
-/* line 511, ../sass/screen.scss */
+/* line 515, ../sass/screen.scss */
 .home section a.new-site {
   background: #5c5656;
 }
-/* line 518, ../sass/screen.scss */
+/* line 522, ../sass/screen.scss */
 .home section a.new-site:after {
   content: "Look at this new other site";
 }
 
-/* line 526, ../sass/screen.scss */
+/* line 530, ../sass/screen.scss */
 .bottom-btn {
   display: block;
   width: 100%;
@@ -9447,13 +9439,13 @@ body {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 540, ../sass/screen.scss */
+/* line 544, ../sass/screen.scss */
 .bottom-btn:hover, .bottom-btn:focus {
   text-decoration: none;
   color: #fff;
   background: #2e0764;
 }
-/* line 547, ../sass/screen.scss */
+/* line 551, ../sass/screen.scss */
 .bottom-btn .arrow-right {
   background-position: 0 -24px;
   height: 16px;
@@ -9462,50 +9454,54 @@ body {
   margin-left: 13px;
 }
 
-/* line 554, ../sass/screen.scss */
+/* line 558, ../sass/screen.scss */
 footer {
   background: #2c2b2b;
   color: #fff;
   padding: 80px 0 40px;
   clear: both;
 }
-/* line 560, ../sass/screen.scss */
-footer .r-pannel,
-footer .c-pannel,
-footer .l-pannel {
+/* line 564, ../sass/screen.scss */
+footer .container > div {
   padding: 0 25px;
 }
-/* line 568, ../sass/screen.scss */
+@media screen and (max-width: 991px) {
+  /* line 564, ../sass/screen.scss */
+  footer .container > div {
+    margin-bottom: 40px;
+  }
+}
+/* line 574, ../sass/screen.scss */
 footer p {
   font-size: 1.1em;
 }
-/* line 572, ../sass/screen.scss */
+/* line 578, ../sass/screen.scss */
 footer .comment-wrap {
   margin-top: 5px;
 }
-/* line 577, ../sass/screen.scss */
+/* line 583, ../sass/screen.scss */
 footer .c-pannel p {
   margin-bottom: 20px;
 }
-/* line 580, ../sass/screen.scss */
+/* line 586, ../sass/screen.scss */
 footer .c-pannel i {
   float: left;
   margin-right: 10px;
   margin-top: 2px;
 }
-/* line 585, ../sass/screen.scss */
+/* line 591, ../sass/screen.scss */
 footer .c-pannel span {
   color: #337ab7;
 }
-/* line 591, ../sass/screen.scss */
+/* line 597, ../sass/screen.scss */
 footer .l-pannel ul {
   list-style: none;
 }
-/* line 594, ../sass/screen.scss */
+/* line 600, ../sass/screen.scss */
 footer .l-pannel ul li {
   margin-bottom: 25px;
 }
-/* line 596, ../sass/screen.scss */
+/* line 602, ../sass/screen.scss */
 footer .l-pannel ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -9517,13 +9513,13 @@ footer .l-pannel ul li a {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 603, ../sass/screen.scss */
+/* line 609, ../sass/screen.scss */
 footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel ul li a:active {
   text-decoration: none;
   color: #610dd6;
 }
 
-/* line 615, ../sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 .btn {
   font-size: 1.6em;
   border-radius: 0;
@@ -9533,23 +9529,23 @@ footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 620, ../sass/screen.scss */
+/* line 626, ../sass/screen.scss */
 .btn.violet {
   background-color: #610dd6;
   border-color: #610dd6;
   color: #fff;
 }
-/* line 625, ../sass/screen.scss */
+/* line 631, ../sass/screen.scss */
 .btn.violet:hover, .btn.violet:focus {
   outline: none;
   background-color: #2e0764;
 }
-/* line 632, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 .btn.clear {
   background-color: #fff;
   border-color: #999;
 }
-/* line 636, ../sass/screen.scss */
+/* line 642, ../sass/screen.scss */
 .btn.clear:hover, .btn.clear:focus {
   outline: none;
   background-color: #999;
