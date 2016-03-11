@@ -186,17 +186,13 @@ body {
     margin: 500px 0 0 50px;
     
         @media screen and (max-width: 991px) {
-            margin: 200px 0 0 0;
+           display: none;
         }
     
         div {
             color: $white;
             text-transform: uppercase;
             text-align: right;
-            
-            @media screen and (max-width: 991px) {
-                text-align: center;
-            }
 
             &.small {
                 font-size: 15px;
