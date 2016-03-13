@@ -180,19 +180,23 @@ body {
 .top-section {
     @extend .row;
     position: relative;
+    background-image: url("../img/header-bg.jpg");
+    background-position: top center;
+    height: 900px;
     
 .header-title {
     width: 320px;
     margin: 500px 0 0 50px;
+    text-align: right;
     
         @media screen and (max-width: 991px) {
-           display: none;
+            margin: 250px 0;
+            text-align: center
         }
-    
+
         div {
             color: $white;
             text-transform: uppercase;
-            text-align: right;
 
             &.small {
                 font-size: 15px;
@@ -204,6 +208,10 @@ body {
 
             &.big {
                 font-size: 36px; 
+                
+                @media screen and (max-width: 991px) {
+                    font-size: 30px;
+                }
                 span {
                     color: $green;
                 }

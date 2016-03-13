@@ -14,3 +14,10 @@ $('.advice-section a').click(function() {
 $('.article-section a').click(function() {
     $(this).attr('target','_blank');
 });
+
+$(function() {
+    var widthDoc = $(this).width();
+    if(widthDoc<991) {
+        $('.top-section').removeClass('parallax parallax-1');
+    }
+});
