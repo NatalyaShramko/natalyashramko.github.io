@@ -8952,7 +8952,7 @@ body {
   margin-right: 0;
   margin-top: 25px;
   padding: 15px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 0;
   -webkit-transition: 0.7s;
   -moz-transition: 0.7s;
@@ -9412,15 +9412,27 @@ body {
   content: "Concert tickets Kurt Vile page";
 }
 /* line 515, ../sass/screen.scss */
+.home section a.generator {
+  background: #afacac;
+}
+/* line 518, ../sass/screen.scss */
+.home section a.generator img {
+  margin-top: 110px;
+}
+/* line 522, ../sass/screen.scss */
+.home section a.generator:after {
+  content: "Site for creating video presentations";
+}
+/* line 527, ../sass/screen.scss */
 .home section a.new-site {
   background: #5c5656;
 }
-/* line 522, ../sass/screen.scss */
+/* line 534, ../sass/screen.scss */
 .home section a.new-site:after {
   content: "Look at this new other site";
 }
 
-/* line 530, ../sass/screen.scss */
+/* line 542, ../sass/screen.scss */
 .bottom-btn {
   display: block;
   width: 100%;
@@ -9439,13 +9451,13 @@ body {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 544, ../sass/screen.scss */
+/* line 556, ../sass/screen.scss */
 .bottom-btn:hover, .bottom-btn:focus {
   text-decoration: none;
   color: #fff;
   background: #2e0764;
 }
-/* line 551, ../sass/screen.scss */
+/* line 563, ../sass/screen.scss */
 .bottom-btn .arrow-right {
   background-position: 0 -24px;
   height: 16px;
@@ -9454,54 +9466,54 @@ body {
   margin-left: 13px;
 }
 
-/* line 558, ../sass/screen.scss */
+/* line 570, ../sass/screen.scss */
 footer {
   background: #2c2b2b;
   color: #fff;
   padding: 80px 0 40px;
   clear: both;
 }
-/* line 564, ../sass/screen.scss */
+/* line 576, ../sass/screen.scss */
 footer .container > div {
   padding: 0 25px;
 }
 @media screen and (max-width: 991px) {
-  /* line 564, ../sass/screen.scss */
+  /* line 576, ../sass/screen.scss */
   footer .container > div {
     margin-bottom: 40px;
   }
 }
-/* line 574, ../sass/screen.scss */
+/* line 586, ../sass/screen.scss */
 footer p {
   font-size: 1.1em;
 }
-/* line 578, ../sass/screen.scss */
+/* line 590, ../sass/screen.scss */
 footer .comment-wrap {
   margin-top: 5px;
 }
-/* line 583, ../sass/screen.scss */
+/* line 595, ../sass/screen.scss */
 footer .c-pannel p {
   margin-bottom: 20px;
 }
-/* line 586, ../sass/screen.scss */
+/* line 598, ../sass/screen.scss */
 footer .c-pannel i {
   float: left;
   margin-right: 10px;
   margin-top: 2px;
 }
-/* line 591, ../sass/screen.scss */
+/* line 603, ../sass/screen.scss */
 footer .c-pannel span {
   color: #337ab7;
 }
-/* line 597, ../sass/screen.scss */
+/* line 609, ../sass/screen.scss */
 footer .l-pannel ul {
   list-style: none;
 }
-/* line 600, ../sass/screen.scss */
+/* line 612, ../sass/screen.scss */
 footer .l-pannel ul li {
   margin-bottom: 25px;
 }
-/* line 602, ../sass/screen.scss */
+/* line 614, ../sass/screen.scss */
 footer .l-pannel ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -9513,13 +9525,13 @@ footer .l-pannel ul li a {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 609, ../sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel ul li a:active {
   text-decoration: none;
   color: #610dd6;
 }
 
-/* line 621, ../sass/screen.scss */
+/* line 633, ../sass/screen.scss */
 .btn {
   font-size: 1.6em;
   border-radius: 0;
@@ -9529,23 +9541,23 @@ footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 626, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 .btn.violet {
   background-color: #610dd6;
   border-color: #610dd6;
   color: #fff;
 }
-/* line 631, ../sass/screen.scss */
+/* line 643, ../sass/screen.scss */
 .btn.violet:hover, .btn.violet:focus {
   outline: none;
   background-color: #2e0764;
 }
-/* line 638, ../sass/screen.scss */
+/* line 650, ../sass/screen.scss */
 .btn.clear {
   background-color: #fff;
   border-color: #999;
 }
-/* line 642, ../sass/screen.scss */
+/* line 654, ../sass/screen.scss */
 .btn.clear:hover, .btn.clear:focus {
   outline: none;
   background-color: #999;
