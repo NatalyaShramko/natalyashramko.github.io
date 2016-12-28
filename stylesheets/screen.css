@@ -9438,15 +9438,28 @@ body {
   content: "Tours of popular bands in USA";
 }
 /* line 540, ../sass/screen.scss */
+.home section a.exper {
+  background: #a6b8f4;
+}
+/* line 543, ../sass/screen.scss */
+.home section a.exper img {
+  width: 280px;
+  margin-top: 100px;
+}
+/* line 548, ../sass/screen.scss */
+.home section a.exper:after {
+  content: "Experimentanium - museum of popular science.";
+}
+/* line 553, ../sass/screen.scss */
 .home section a.new-site {
   background: #5c5656;
 }
-/* line 547, ../sass/screen.scss */
+/* line 560, ../sass/screen.scss */
 .home section a.new-site:after {
   content: "Look at this new other site";
 }
 
-/* line 555, ../sass/screen.scss */
+/* line 568, ../sass/screen.scss */
 .bottom-btn {
   display: block;
   width: 100%;
@@ -9465,13 +9478,13 @@ body {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 569, ../sass/screen.scss */
+/* line 582, ../sass/screen.scss */
 .bottom-btn:hover, .bottom-btn:focus {
   text-decoration: none;
   color: #fff;
   background: #2e0764;
 }
-/* line 576, ../sass/screen.scss */
+/* line 589, ../sass/screen.scss */
 .bottom-btn .arrow-right {
   background-position: 0 -24px;
   height: 16px;
@@ -9480,54 +9493,54 @@ body {
   margin-left: 13px;
 }
 
-/* line 583, ../sass/screen.scss */
+/* line 596, ../sass/screen.scss */
 footer {
   background: #2c2b2b;
   color: #fff;
   padding: 80px 0 40px;
   clear: both;
 }
-/* line 589, ../sass/screen.scss */
+/* line 602, ../sass/screen.scss */
 footer .container > div {
   padding: 0 25px;
 }
 @media screen and (max-width: 991px) {
-  /* line 589, ../sass/screen.scss */
+  /* line 602, ../sass/screen.scss */
   footer .container > div {
     margin-bottom: 40px;
   }
 }
-/* line 599, ../sass/screen.scss */
+/* line 612, ../sass/screen.scss */
 footer p {
   font-size: 1.1em;
 }
-/* line 603, ../sass/screen.scss */
+/* line 616, ../sass/screen.scss */
 footer .comment-wrap {
   margin-top: 5px;
 }
-/* line 608, ../sass/screen.scss */
+/* line 621, ../sass/screen.scss */
 footer .c-pannel p {
   margin-bottom: 20px;
 }
-/* line 611, ../sass/screen.scss */
+/* line 624, ../sass/screen.scss */
 footer .c-pannel i {
   float: left;
   margin-right: 10px;
   margin-top: 2px;
 }
-/* line 616, ../sass/screen.scss */
+/* line 629, ../sass/screen.scss */
 footer .c-pannel span {
   color: #337ab7;
 }
-/* line 622, ../sass/screen.scss */
+/* line 635, ../sass/screen.scss */
 footer .l-pannel ul {
   list-style: none;
 }
-/* line 625, ../sass/screen.scss */
+/* line 638, ../sass/screen.scss */
 footer .l-pannel ul li {
   margin-bottom: 25px;
 }
-/* line 627, ../sass/screen.scss */
+/* line 640, ../sass/screen.scss */
 footer .l-pannel ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -9539,13 +9552,13 @@ footer .l-pannel ul li a {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 634, ../sass/screen.scss */
+/* line 647, ../sass/screen.scss */
 footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel ul li a:active {
   text-decoration: none;
   color: #610dd6;
 }
 
-/* line 646, ../sass/screen.scss */
+/* line 659, ../sass/screen.scss */
 .btn {
   font-size: 1.6em;
   border-radius: 0;
@@ -9555,23 +9568,23 @@ footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 651, ../sass/screen.scss */
+/* line 664, ../sass/screen.scss */
 .btn.violet {
   background-color: #610dd6;
   border-color: #610dd6;
   color: #fff;
 }
-/* line 656, ../sass/screen.scss */
+/* line 669, ../sass/screen.scss */
 .btn.violet:hover, .btn.violet:focus {
   outline: none;
   background-color: #2e0764;
 }
-/* line 663, ../sass/screen.scss */
+/* line 676, ../sass/screen.scss */
 .btn.clear {
   background-color: #fff;
   border-color: #999;
 }
-/* line 667, ../sass/screen.scss */
+/* line 680, ../sass/screen.scss */
 .btn.clear:hover, .btn.clear:focus {
   outline: none;
   background-color: #999;
