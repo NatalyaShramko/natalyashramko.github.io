@@ -8797,56 +8797,56 @@ button.close {
   background-repeat: no-repeat;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-arrow-down {
   background-position: 0 0;
   height: 24px;
   width: 24px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-arrow-right {
   background-position: 0 -24px;
   height: 16px;
   width: 16px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-code {
   background-position: 0 -40px;
   height: 32px;
   width: 32px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-comment {
   background-position: 0 -72px;
   height: 64px;
   width: 64px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-facebook {
   background-position: 0 -136px;
   height: 24px;
   width: 24px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-github {
   background-position: 0 -160px;
   height: 24px;
   width: 24px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-quotes {
   background-position: 0 -184px;
   height: 32px;
   width: 32px;
 }
 
-/* line 84, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
+/* line 84, ../../../.rvm/gems/ruby-2.3.0/gems/compass-core-1.0.3/stylesheets/compass/utilities/sprites/_base.scss */
 .sprite-skype {
   background-position: 0 -216px;
   height: 24px;
@@ -9381,11 +9381,12 @@ body {
 }
 /* line 481, ../sass/screen.scss */
 .home section a.sale-h img {
-  width: 260px;
+  width: 270px;
+  margin-top: 100px;
 }
 /* line 486, ../sass/screen.scss */
 .home section a.sale-h:after {
-  content: "Fashon blog Sale-Hunters";
+  content: "Fashion blog Sale-Hunters";
 }
 /* line 491, ../sass/screen.scss */
 .home section a.fitness-logo {
@@ -9393,46 +9394,59 @@ body {
 }
 /* line 494, ../sass/screen.scss */
 .home section a.fitness-logo img {
-  margin-top: 100px;
+  margin-top: 120px;
 }
 /* line 498, ../sass/screen.scss */
 .home section a.fitness-logo:after {
   content: "Page of health and fitness";
 }
 /* line 503, ../sass/screen.scss */
-.home section a.kurt {
-  background: #323131;
+.home section a.defleppard {
+  background: #3c1d0d;
 }
 /* line 506, ../sass/screen.scss */
-.home section a.kurt img {
-  width: 200px;
+.home section a.defleppard img {
+  width: 250px;
 }
 /* line 510, ../sass/screen.scss */
-.home section a.kurt:after {
-  content: "Concert tickets Kurt Vile page";
+.home section a.defleppard:after {
+  content: "Concert tours Defleppard";
 }
 /* line 515, ../sass/screen.scss */
-.home section a.generator {
-  background: #afacac;
+.home section a.maker {
+  background: #212a50;
 }
 /* line 518, ../sass/screen.scss */
-.home section a.generator img {
-  margin-top: 110px;
+.home section a.maker img {
+  margin-top: 100px;
 }
 /* line 522, ../sass/screen.scss */
-.home section a.generator:after {
-  content: "Site for creating video presentations";
+.home section a.maker:after {
+  content: "Landing page for Maker project";
 }
 /* line 527, ../sass/screen.scss */
+.home section a.bandstours {
+  background: #fff;
+}
+/* line 530, ../sass/screen.scss */
+.home section a.bandstours img {
+  width: 280px;
+  margin-top: 100px;
+}
+/* line 535, ../sass/screen.scss */
+.home section a.bandstours:after {
+  content: "Tours of popular bands in USA";
+}
+/* line 540, ../sass/screen.scss */
 .home section a.new-site {
   background: #5c5656;
 }
-/* line 534, ../sass/screen.scss */
+/* line 547, ../sass/screen.scss */
 .home section a.new-site:after {
   content: "Look at this new other site";
 }
 
-/* line 542, ../sass/screen.scss */
+/* line 555, ../sass/screen.scss */
 .bottom-btn {
   display: block;
   width: 100%;
@@ -9451,13 +9465,13 @@ body {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 556, ../sass/screen.scss */
+/* line 569, ../sass/screen.scss */
 .bottom-btn:hover, .bottom-btn:focus {
   text-decoration: none;
   color: #fff;
   background: #2e0764;
 }
-/* line 563, ../sass/screen.scss */
+/* line 576, ../sass/screen.scss */
 .bottom-btn .arrow-right {
   background-position: 0 -24px;
   height: 16px;
@@ -9466,54 +9480,54 @@ body {
   margin-left: 13px;
 }
 
-/* line 570, ../sass/screen.scss */
+/* line 583, ../sass/screen.scss */
 footer {
   background: #2c2b2b;
   color: #fff;
   padding: 80px 0 40px;
   clear: both;
 }
-/* line 576, ../sass/screen.scss */
+/* line 589, ../sass/screen.scss */
 footer .container > div {
   padding: 0 25px;
 }
 @media screen and (max-width: 991px) {
-  /* line 576, ../sass/screen.scss */
+  /* line 589, ../sass/screen.scss */
   footer .container > div {
     margin-bottom: 40px;
   }
 }
-/* line 586, ../sass/screen.scss */
+/* line 599, ../sass/screen.scss */
 footer p {
   font-size: 1.1em;
 }
-/* line 590, ../sass/screen.scss */
+/* line 603, ../sass/screen.scss */
 footer .comment-wrap {
   margin-top: 5px;
 }
-/* line 595, ../sass/screen.scss */
+/* line 608, ../sass/screen.scss */
 footer .c-pannel p {
   margin-bottom: 20px;
 }
-/* line 598, ../sass/screen.scss */
+/* line 611, ../sass/screen.scss */
 footer .c-pannel i {
   float: left;
   margin-right: 10px;
   margin-top: 2px;
 }
-/* line 603, ../sass/screen.scss */
+/* line 616, ../sass/screen.scss */
 footer .c-pannel span {
   color: #337ab7;
 }
-/* line 609, ../sass/screen.scss */
+/* line 622, ../sass/screen.scss */
 footer .l-pannel ul {
   list-style: none;
 }
-/* line 612, ../sass/screen.scss */
+/* line 625, ../sass/screen.scss */
 footer .l-pannel ul li {
   margin-bottom: 25px;
 }
-/* line 614, ../sass/screen.scss */
+/* line 627, ../sass/screen.scss */
 footer .l-pannel ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -9525,13 +9539,13 @@ footer .l-pannel ul li a {
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 621, ../sass/screen.scss */
+/* line 634, ../sass/screen.scss */
 footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel ul li a:active {
   text-decoration: none;
   color: #610dd6;
 }
 
-/* line 633, ../sass/screen.scss */
+/* line 646, ../sass/screen.scss */
 .btn {
   font-size: 1.6em;
   border-radius: 0;
@@ -9541,23 +9555,23 @@ footer .l-pannel ul li a:hover, footer .l-pannel ul li a:focus, footer .l-pannel
   -o-transition: 0.7s;
   transition: 0.7s;
 }
-/* line 638, ../sass/screen.scss */
+/* line 651, ../sass/screen.scss */
 .btn.violet {
   background-color: #610dd6;
   border-color: #610dd6;
   color: #fff;
 }
-/* line 643, ../sass/screen.scss */
+/* line 656, ../sass/screen.scss */
 .btn.violet:hover, .btn.violet:focus {
   outline: none;
   background-color: #2e0764;
 }
-/* line 650, ../sass/screen.scss */
+/* line 663, ../sass/screen.scss */
 .btn.clear {
   background-color: #fff;
   border-color: #999;
 }
-/* line 654, ../sass/screen.scss */
+/* line 667, ../sass/screen.scss */
 .btn.clear:hover, .btn.clear:focus {
   outline: none;
   background-color: #999;

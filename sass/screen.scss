@@ -479,8 +479,8 @@ body {
                 background: $white;
 
                 img {
-                    width: 260px;
-                    
+                    width: 270px;
+                    margin-top: 100px
                 }
 
                 &:after {
@@ -492,7 +492,7 @@ body {
                 background: #041f33;
                 
                 img {
-                    margin-top: 100px;
+                    margin-top: 120px;
                 }
                 
                 &:after {
@@ -500,28 +500,41 @@ body {
                 }
             }
             
-            &.kurt {
-                background: #323131;
+            &.defleppard {
+                background: #3c1d0d;
                 
                 img {
-                    width: 200px;
+                    width: 250px;
                 }
  
                 &:after {
-                    content: "Concert tickets Kurt Vile page";
+                    content: "Concert tours Defleppard";
                 }
             }
             
-            &.generator {
-                background: #afacac;
+            &.maker {
+                background: #212a50;
                 
                 img {
-                    margin-top: 110px;
+                    margin-top: 100px;
                 }
  
                 &:after {
-                    content: "Site for creating video presentations";
+                    content: "Landing page for Maker project";
                 }
+            }
+            
+            &.bandstours {
+                background: $white;
+                
+                img {
+                    width: 280px;
+                    margin-top: 100px;
+                }
+ 
+                &:after {
+                    content: "Tours of popular bands in USA";
+                }    
             }
             
             &.new-site {
