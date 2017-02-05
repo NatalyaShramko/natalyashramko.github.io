@@ -487,6 +487,13 @@ body {
                     content: "Fashion blog Sale-Hunters";
                 }
             }
+            &.icon-site {
+                background: #b3f9fc;
+                
+                &:after {
+                    content: "Application landing page";
+                }    
+            }
             
             &.fitness-logo {
                 background: #041f33;
