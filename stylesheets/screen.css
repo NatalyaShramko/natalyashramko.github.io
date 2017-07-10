@@ -9435,6 +9435,7 @@ body {
 /* line 533, ../sass/screen.scss */
 .home section a.bandstours {
   background: #fff;
+  border-bottom: solid;
 }
 /* line 536, ../sass/screen.scss */
 .home section a.bandstours img {
