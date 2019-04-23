@@ -105,6 +105,22 @@ input[type="number"] {
 main {
   height: 100%; }
 
+.wrapper-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  margin-top: 60px; }
+  @media only screen and (max-width: 770px) {
+    .wrapper-icons {
+      margin-top: 30px; } }
+
 .wrapper {
   width: 100%;
   max-width: 1400px;
@@ -528,6 +544,13 @@ main {
   .project-info img {
     width: 100%;
     background: #dee1e6; }
+    .project-info img.svg-ico {
+      width: 290px;
+      background: none;
+      margin: 0 15px; }
+      @media only screen and (max-width: 980px) {
+        .project-info img.svg-ico {
+          margin: 10px 15px; } }
 
 .project-key {
   margin: 0 auto; }
