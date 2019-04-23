@@ -546,6 +546,7 @@ main {
     background: #dee1e6; }
     .project-info img.svg-ico {
       width: 290px;
+      height: 150px;
       background: none;
       margin: 0 15px; }
       @media only screen and (max-width: 980px) {
