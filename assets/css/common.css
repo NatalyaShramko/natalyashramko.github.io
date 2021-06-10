@@ -5989,6 +5989,11 @@ input[type="number"] {
   .bag-gif img {
     width: auto;
     max-height: 800px; }
+@media (max-width: 991px) {
+    .bag-gif img {
+        width: 100%;
+    }
+}
 
 .nopadding {
   padding: 0 !important;
@@ -5997,6 +6002,12 @@ input[type="number"] {
 .video-text {
   padding: 8px 15px 0;
   text-align: justify; }
+
+@media (max-width: 991px) {
+    .video-text { 
+        padding: 15px;
+    }
+}
 
 .text-block {
   padding: 209.5px 50px !important; }
