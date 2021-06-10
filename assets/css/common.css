@@ -5995,14 +5995,14 @@ input[type="number"] {
   margin: 0 !important; }
 
 .video-text {
-  padding: 0 15px;
+  padding: 8px 15px 0;
   text-align: justify; }
 
 .text-block {
   padding: 209.5px 50px !important; }
 
 .video-bg {
-  padding: 0 0 0 15px; }
+  padding: 0 0 0 0px; }
 
 .video-big {
   margin-bottom: -3px; }
